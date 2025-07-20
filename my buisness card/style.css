@@ -1,10 +1,4 @@
-.profile-img {
-    width: 25px;
-    height: 25px;
-    border-radius: 40%;
-    object-fit: cover;
-    margin-bottom: 15px;
-}
+
 
 body {
     margin: 20px;
@@ -17,13 +11,12 @@ body {
 }
 
 .card {
-    width: 150px;
-    margin-left: auto;
-    margin-right: auto;
+    width: 400px;
+    margin: 0 auto;
     border: 1px dotted blue;
     padding: 10px;
     display: flex;
-    justify-content: space center;
+    justify-content: space around;
     text-align: center;
     background: #ddebf8;
     color: #2b2839;
@@ -31,9 +24,6 @@ body {
 
 }
 
-.italic {
-    font-style: italic;
-}
 
 .border-blue {
     border: 1px dotted blue;
